@@ -1,0 +1,27 @@
+{
+  "name": "starkjs-underscore",
+  "version": "0.0.1",
+  "description": "underscore extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:agebrock/starkjs-underscore.git"
+  },
+  "keywords": [
+    "underscore"
+  ],
+  "author": "christoph.hagenbrock@googlemail.com",
+  "bugs": {
+    "url": "https://github.com/agebrock/starkjs-underscore/issues"
+  },
+  "homepage": "https://github.com/agebrock/starkjs-underscore",
+  "dependencies": {
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
