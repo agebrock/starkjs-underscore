@@ -1,5 +1,11 @@
 var _ = require('underscore');
 
+/**
+ * Returns a lowercase string based on the primitive type of a given value.
+ *
+ * @param value
+ * @returns {undefined|null|string|nan|number|boolean|date|function|array|object}
+ */
 function getType(value){
     var type;
     if(_.isUndefined(value)){
@@ -28,6 +34,13 @@ function getType(value){
     return type;
 }
 
+/**
+ *
+ * Checks a value is undefined or null
+ *
+ * @param value
+ * @returns {boolean}
+ */
 function isDefined(value){
     return getType(value) !== 'null' && getType(value) !== 'undefined';
 }
